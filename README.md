@@ -1,1 +1,2 @@
-# HSXCAPKit-3rdparty-libs
+hydra-3rdparty-libs
+===============
