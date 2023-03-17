@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/longzl/HSXCAPKit-3rdparty-libs"
   s.license      = "MIT"
   s.author       = { "longzhili" => "longzhili2005@126.com" }
-  s.platform     = :ios, "10.0.0"
+  s.platform     = :ios, "11.0.0"
   s.source       = { :git => "https://github.com/longzl/HSXCAPKit-3rdparty-libs.git", :tag => "v#{s.version}" }
   s.libraries     = "c++"
   s.header_mappings_dir = "src"
