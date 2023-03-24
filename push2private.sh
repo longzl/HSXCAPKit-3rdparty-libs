@@ -1,0 +1,1 @@
+pod repo push hsxorg HSXCAPKit-3rdparty-libs.podspec --use-libraries --allow-warnings
