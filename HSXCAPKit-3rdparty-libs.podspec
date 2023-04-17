@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSXCAPKit-3rdparty-libs"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "CAPKit-3rdparty-libs library."
   s.description  = <<-DESC
                    libevent, openssl, libcurl, tor, c-ares, mcrypt, mhash, sqlcipher, lame.
@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.source_files  = 'src/*.{h}', 'src/**/*.{h}'
   s.preserve_paths = 'src/*.{h,c}', 'src/**/*.{h}'
   s.compiler_flags  = '-DSQLITE_HAS_CODEC'
+  s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 
   s.ios.vendored_libraries = 'lib/*.a'
   s.requires_arc = false
