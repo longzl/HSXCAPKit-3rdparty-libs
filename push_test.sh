@@ -1,4 +1,4 @@
-VERSION="v0.1.6"
+VERSION="v0.1.8"
 NAME="HSXCAPKit-3rdparty-libs"
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 git add .
